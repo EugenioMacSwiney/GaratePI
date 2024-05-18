@@ -26,7 +26,7 @@ include('db.php');
 
   <?php
 
-$sql = "SELECT * FROM usuarios";
+$sql = "SELECT * FROM usuario";
 $result = mysqli_query($conexion,$sql);
 while($mostrar  = mysqli_fetch_array($result)){
 
