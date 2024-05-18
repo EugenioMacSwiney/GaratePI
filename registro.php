@@ -8,7 +8,7 @@ $nombre=$_POST['txtNombre'];
 $usuario=$_POST['txtUsuario'];
 $contrasena=$_POST['txtContrasena'];
 
-$consulta="INSERT INTO `usuarios` (`Nombre`, `Usuario`, `Contrasena`) 
+$consulta="INSERT INTO `usuario` (`Nombre`, `Usuario`, `Contrasena`) 
 VALUES ('$nombre', '$usuario', '$contrasena')";
 
 $resultado=mysqli_query($conexion,$consulta) or die("error de registro");
