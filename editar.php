@@ -28,7 +28,7 @@ include('/app/db.php');
             <tbody>
                 <?php
                 $id = $_GET["id"];
-                $sql = "SELECT * FROM usuarios where ID='" . $id . "'";
+                $sql = "SELECT * FROM usuario where ID='" . $id . "'";
                 $result = mysqli_query($conexion, $sql);
                 while ($mostrar = mysqli_fetch_array($result)) {
                 ?>
