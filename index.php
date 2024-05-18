@@ -5,28 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Formulario</title>
 </head>
 <body>
+    <div class="barra">
+        <h4 class="titulo">Proyecto Integrador</h4>
+        <nav>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://x.com/"target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.dropbox.com/"target="_blank"><i class="fa-brands fa-dropbox"></i></a>
+            <a href="https://www.google.com/"target="_blank"><i class="fa-brands fa-google"></i></a>
+
+        </nav>
+    </div>
+
     <div class="modal-body modal-dialog">
         <div class="container col-lg-11">
             <div class="modal-content col-lg-9 bg-light">
                 <br>
-                <h1 class="text-center verde">Registro</h1>
+                <h1 class="text-center verde">Bienvenido</h1>
                 <form class="text-center bg-light" action="/registro.php" method="POST">
                     <img class="logo" src="IMG/g.png" width="300px" height="100px">
                     <div class="mb-3"><br>
-                        <label for="exampleInputEmail1" class="form-label">Nombre Completo</label>
+                        <label for="exampleInputEmail1" class="form-label blanco">Nombre Completo</label>
                         <input type="text" class="form-control" name="txtNombre">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Usuario</label>
+                        <label for="exampleInputPassword1" class="form-label blanco">Usuario</label>
                         <input type="text" class="form-control" name="txtUsuario">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Contrasena</label>
+                        <label for="exampleInputPassword1" class="form-label blanco">Contraseña</label>
                         <input type="password" class="form-control" name="txtContrasena">
-                        <div id="emailHelp" class="verde">Verifique los datos proporcionados</div>
+                        <div id="emailHelp" class="verde"></div>
                     </div>
                     <button type="submit" class="btn btn-success">Agregar</button>
                     <a href="/mostrar.php" class="btn btn-primary">Mostrar</a>
@@ -34,6 +47,11 @@
             </div>
         </div>
     </div>
+
+
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
