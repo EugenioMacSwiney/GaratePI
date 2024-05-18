@@ -5,7 +5,7 @@ include('/app/db.php');
 $ID = mysqli_real_escape_string($conexion, $_POST['txtID']);
 
 // Preparar la consulta SQL
-$query = "DELETE FROM usuarios WHERE ID = ?";
+$query = "DELETE FROM usuario WHERE ID = ?";
 $stmt = mysqli_prepare($conexion, $query);
 
 // Vincular el parámetro
